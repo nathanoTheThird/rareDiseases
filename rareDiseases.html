@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="This is a website about not getting scammed." />
+		<meta name="author" content="Nathan Howe"/>
+		<meta name="copyright" content="Nathan Howe, 2023"
+		<meta name="rating" content="general" />
+		<title>About Rare Diseases</title>
+		<style type="text/css">
+			body {
+				background-color:#C5E1BD;
+				color: red;
+				font-family: "bradley hand";
+				
+			}
+			h1 {
+				font-size: 50px;
+				color: #5E9FE0;
+			}
+			code {
+				font: monospace;
+				color: white;
+  				background-color: #3f83a6ff;
+  				padding: 3px;
+				margin: 2px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<a id="top"></a>
+		<div id="main_content">
+			<h1>Welcome to Rare Diseases</h1>
+			<h2>Disease of the Month:</h2>	
+			<p>Fun fact! There's a rare disease called <em>Sictollia</em> which makes you think bitter coffee is sweet and sweet coffee is bitter! It is hereditary and is caused by a sudden reversal of your taste buds whenever you drink coffee- toumpawsination. </p>
+			<p style="font-size:15px; color: blue"> Wanna put the Disease of the Month in your website? Click this: <input type="checkbox" id="myCheck" onclick="myFunction()">, and copy the text.
+
+<p id="text" style="display:none">
+<code> &lt;!--**Disease of the Month**
+	Copyright Jeffrey Canto
+	Rare Diseases, 12/23--&gt;
+	&lt;h2&gt; Disease of the Month: &lt;/h2&gt;
+	&lt;p&gt; Fun fact! There's a rare disease called &lt;em&gt;Sictollia&lt;/em&gt; which makes you think bitter coffee is sweet and sweet coffee is bitter! It is hereditary and is caused by a sudden reversal of your taste buds whenever you drink coffee- toumpawsination. <br /> -Dr. Canto, Rare Diseases December 2023 &lt;/p&gt;
+	</code></p>
+</p>
+<p style="font-size:20px;">Excerpt from the book, <u>It Ain't a Disease if it Ain't Killed Nobody</u>:</p>
+			
+			<blockquote>
+				<p>From Influenza to the Black Death, <strong>diseases are amazing</strong>! Disease can be your friend... Unless yer dead!</p>
+			<cite>Dr. Canto</cite>
+			</blockquote>
+			<div id="footer">
+				<a href="#top">Return to Top</a>
+				<p>&copy; Jeffrey Canto, 2023. All Rights Reserved.</p>
+			</div><!-- End of footer -->
+		</div>
+       
+	
+	</body>
+	<script>
+		function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+	</script>
+
+</html>
